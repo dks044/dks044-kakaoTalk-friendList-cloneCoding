@@ -3,9 +3,9 @@
  */
 
 export const myProfile = {
-  uri: "https://png.pngtree.com/thumb_back/fh260/back_pic/03/54/06/62579986dba62df.jpg",
-  name: "지은",
-  introduction: "inspiring day",
+  uri: "https://www.sherdog.com/image_crop/200/300/_images/fighter/1601262923Dustin_Poirier.jpg",
+  name: "안종윤",
+  introduction: "UFC Developer",
 };
 
 export const friendProfiles = [
@@ -72,6 +72,11 @@ export const friendProfiles = [
   {
     uri: "https://cdn.pixabay.com/photo/2017/08/30/17/12/waffle-hearts-2697904__480.jpg",
     name: "성지현",
+    introduction: "~off~",
+  },
+  {
+    uri: "https://kor.pngtree.com/freepng/illustration-featuring-landscapers-and-office-cleaning-staff-and-corporate-professionals-all-representing-for-world-cancer-day-dynamic-art-black-people_15786580.html",
+    name: "은가누",
     introduction: "~off~",
   },
 ];
