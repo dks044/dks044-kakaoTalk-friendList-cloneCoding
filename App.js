@@ -10,6 +10,7 @@ import Division from './src/Division';
 import FrientSection from './src/FrientSection';
 import FriendList from './src/FriendList';
 import { useState } from 'react';
+import TabBar from './src/TabBar';
 
 const statusBarHeight = getStatusBarHeight(true);
 const bottomSpace = getBottomSpace();
