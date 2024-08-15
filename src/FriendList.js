@@ -7,17 +7,22 @@ import Margin from "./Margin"
 export default (props) => {
 
   return (
-    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{paddingBottom: getBottomSpace}}>
-      {props.data.map((item,index) => (
-        <View key={index}>
-          <Profile
-            uri={item.uri}
-            name={item.name}
-            introduction={item.introduction}
-          />
-          <Margin height={13}/>
-        </View>
-      ))}
-    </ScrollView>
+    <>
+      {props.isOpened ? (
+        <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: getBottomSpace }}>
+          {props.data.map((item, index) => (
+            <View key={index}>
+              <Profile
+                uri={item.uri}
+                name={item.name}
+                introduction={item.introduction}
+              />
+              <Margin height={13} />
+            </View>
+          ))}
+        </ScrollView>
+
+      ) : null}
+    </>
   )
 }
