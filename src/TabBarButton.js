@@ -5,7 +5,7 @@ import { StyleSheet, TouchableOpacity, View } from 'react-native';
 
 export default (props) => {
   return (
-    <TouchableOpacity style={styles.TabBarButton} ornPress={props.onPressTo}>
+    <TouchableOpacity style={styles.TabBarButton} onPress={props.onPressTo}>
       {props.iconType === 'material' && (
         <MaterialIcons
           style={{

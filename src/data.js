@@ -86,7 +86,8 @@ export const tabbarDatas = [
     label: '친구목록',
     selectIndex : 0,
     iconType: "material",
-    name : "person",
+    activeName : "person",
+    unActiveName : "person-outline",
     size : 24,
     onPressTo: ()=>{}
   },
@@ -94,15 +95,17 @@ export const tabbarDatas = [
     label: '채팅',
     selectIndex : 1,
     iconType: "fontawesome",
-    name : "comment-o",
+    activeName : "comment",
+    unActiveName : "comment-o",
     size : 24,
     onPressTo: ()=>{}
   },
   {
     label: '기타',
     selectIndex : 2,
-    iconType: "fontawesome6",
-    name : "hashtag",
+    iconType: "material",
+    activeName : "bookmark",
+    unActiveName : "bookmark-outline",
     size : 24,
     onPressTo: ()=>{}
   },
@@ -110,7 +113,8 @@ export const tabbarDatas = [
     label: '더보기',
     selectIndex : 3,
     iconType: "material",
-    name : "more-horiz",
+    activeName : "more-horiz",
+    unActiveName : "more-horiz",
     size : 24,
     onPressTo: ()=>{}
   },
