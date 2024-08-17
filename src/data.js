@@ -80,3 +80,38 @@ export const friendProfiles = [
     introduction: "~off~",
   },
 ];
+
+export const tabbarDatas = [
+  {
+    label: '친구목록',
+    selectIndex : 0,
+    iconType: "material",
+    name : "person",
+    size : 24,
+    onPressTo: ()=>{}
+  },
+  {
+    label: '채팅',
+    selectIndex : 1,
+    iconType: "fontawesome",
+    name : "comment-o",
+    size : 24,
+    onPressTo: ()=>{}
+  },
+  {
+    label: '기타',
+    selectIndex : 2,
+    iconType: "fontawesome6",
+    name : "hashtag",
+    size : 24,
+    onPressTo: ()=>{}
+  },
+  {
+    label: '더보기',
+    selectIndex : 3,
+    iconType: "material",
+    name : "more-horiz",
+    size : 24,
+    onPressTo: ()=>{}
+  },
+]
